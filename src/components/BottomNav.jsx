@@ -39,7 +39,7 @@ export default function SimpleBottomNavigation() {
   }, [value])
 
   return (
-    <Box sx={{ width: '100%', position: 'fixed', bottom: 0, cursor: 'pointer' }}>
+    <Box sx={{ width: '100%', position: 'fixed', bottom: 0}}>
       <BottomNavigation
         showLabels
         value={value}
